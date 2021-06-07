@@ -2,6 +2,8 @@ package fr.esgi.baldwars_android.api
 
 import com.google.gson.Gson
 import com.google.gson.GsonBuilder
+import fr.esgi.baldwars_android.api.services.AuthService
+import fr.esgi.baldwars_android.api.services.UserService
 import okhttp3.OkHttpClient
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory

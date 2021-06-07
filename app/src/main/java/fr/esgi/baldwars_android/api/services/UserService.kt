@@ -1,4 +1,4 @@
-package fr.esgi.baldwars_android.api
+package fr.esgi.baldwars_android.api.services
 
 import retrofit2.http.Body
 import retrofit2.http.GET

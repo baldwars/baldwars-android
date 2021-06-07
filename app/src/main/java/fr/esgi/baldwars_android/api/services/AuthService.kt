@@ -1,4 +1,4 @@
-package fr.esgi.baldwars_android.api
+package fr.esgi.baldwars_android.api.services
 
 import fr.esgi.baldwars_android.api.models.User
 import retrofit2.Response
