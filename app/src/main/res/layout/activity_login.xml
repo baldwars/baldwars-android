@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#4D86B8"
-    tools:context=".MainActivity">
+    tools:context=".LoginActivity">
 
     <TextView
         android:id="@+id/baldwarsTitle"
@@ -14,39 +14,38 @@
         android:text="@string/baldwarsTitle"
         android:textColor="@color/white"
         android:textSize="50sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintBottom_toTopOf="@id/RankingButton" />
+        app:layout_constraintBottom_toTopOf="@id/LoginInput"/>
 
-    <Button
-        android:id="@+id/RankingButton"
-        android:layout_width="150dp"
+    <EditText
+        android:id="@+id/LoginInput"
+        android:inputType="text"
+        android:layout_width="180sp"
         android:layout_height="wrap_content"
-        android:text="@string/RankingButton"
         app:layout_constraintTop_toBottomOf="@id/baldwarsTitle"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        />
+        app:layout_constraintVertical_chainStyle="packed"/>
 
-    <Button
-        android:id="@+id/StatisticButton"
-        android:layout_width="150dp"
+    <EditText
+        android:id="@+id/PasswordInput"
+        android:inputType="textPassword"
+        android:layout_width="180sp"
         android:layout_height="wrap_content"
-        android:text="@string/StatisticButton"
-        app:layout_constraintTop_toBottomOf="@id/RankingButton"
-        app:layout_constraintBottom_toTopOf="@id/ExitButton"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/LoginInput"
         />
 
     <Button
-        android:id="@+id/ExitButton"
-        android:layout_width="150dp"
+        android:id="@+id/LogInButton"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/ExitButton"
-        app:layout_constraintTop_toBottomOf="@id/StatisticButton"
+        android:text="@string/LoginButton"
+        app:layout_constraintTop_toBottomOf="@id/PasswordInput"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"/>
 
