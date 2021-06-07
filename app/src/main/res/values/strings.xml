@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">baldwars-android</string>
+    <string name="ExitButton">EXIT</string>
+    <string name="StatisticButton">STATISTIC</string>
+    <string name="baldwarsTitle">BALDWARS</string>
+    <string name="RankingButton">RANKING</string>
+    <string name="LoginButton">LOG IN</string>
+</resources>
