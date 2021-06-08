@@ -10,6 +10,7 @@ import kotlin.system.exitProcess
 class MainActivity : AppCompatActivity() {
     lateinit var RankingButton : Button
     lateinit var ExitButton : Button
+    lateinit var StatisticButton : Button
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -17,15 +18,29 @@ class MainActivity : AppCompatActivity() {
 
         RankingButton = findViewById(R.id.RankingButton)
         ExitButton = findViewById(R.id.ExitButton)
+        StatisticButton = findViewById(R.id.StatisticButton)
 
         RankingButton.setOnClickListener {
             clickRankingButton()
+        }
+
+        StatisticButton.setOnClickListener {
+            clickStatisticButton()
         }
 
         ExitButton.setOnClickListener {
             clickExitButton()
         }
 
+    }
+
+    private fun clickStatisticButton() {
+        try {
+            val intent = Intent(this, StatisticActivity::class.java)
+            startActivity(intent)
+        } catch (e: Exception) {
+            e.printStackTrace()
+        }
     }
 
     fun clickRankingButton() {
