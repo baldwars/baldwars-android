@@ -7,4 +7,6 @@
     <string name="LoginButton">LOG IN</string>
     <string name="rankingTitle">RANKING</string>
     <string name="backButton">BACK</string>
+    <string name="loginUsername">Username</string>
+    <string name="loginPassword">Password</string>
 </resources>
