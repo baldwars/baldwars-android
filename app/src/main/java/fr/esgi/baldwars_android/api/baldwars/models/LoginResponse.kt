@@ -1,4 +1,4 @@
-package fr.esgi.baldwars_android.api.baldwars
+package fr.esgi.baldwars_android.api.baldwars.models
 
 import com.google.gson.annotations.SerializedName
 

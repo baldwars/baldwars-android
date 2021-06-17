@@ -7,8 +7,8 @@ import android.os.Bundle
 import android.view.View
 import android.widget.Toast
 import fr.esgi.baldwars_android.api.baldwars.BaldwarsApi
-import fr.esgi.baldwars_android.api.baldwars.LoginRequest
-import fr.esgi.baldwars_android.api.baldwars.LoginResponse
+import fr.esgi.baldwars_android.api.baldwars.models.LoginRequest
+import fr.esgi.baldwars_android.api.baldwars.models.LoginResponse
 import kotlinx.android.synthetic.main.activity_login.*
 import retrofit2.Call
 import retrofit2.Callback

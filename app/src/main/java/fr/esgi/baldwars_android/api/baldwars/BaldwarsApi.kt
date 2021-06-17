@@ -1,5 +1,7 @@
 package fr.esgi.baldwars_android.api.baldwars
 
+import fr.esgi.baldwars_android.api.baldwars.models.LoginRequest
+import fr.esgi.baldwars_android.api.baldwars.models.LoginResponse
 import retrofit2.Callback
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
